@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'EB Garamond', serif; 
+font-family: 'Roboto', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.jd{
+    font-family: 'Roboto', sans-serif;
+    color: #f8d92b;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.nav-line ul{
+    display: flex;
+    align-items: center;    
+    justify-content: right;
+    margin-top: -20px;
+    
+}
+
+.nav-line ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+
+.nav-line ul li a{
+    text-decoration: none;
+    color: #f8d92b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    
+}
+
+.nav-line ul li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.after-nav{
+    display: flex;
+    align-items: center;  
+    margin-left: 150px;
+   
+}
+
+.photo-after img{
+
+    width: 70vh;
+}
+
+.text-after{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -100px;  
+}
+
+.after-nav .text-h h3{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+  
+   
+}
+
+.after-nav .text-p p{
+    font-family: 'Roboto', sans-serif; 
+    margin-top: -3px;
+    margin-bottom: 50px;
+}
+
+.input-a{
+    position: relative;
+}
+
+.input-a img{
+    position: absolute;
+    z-index: 10;
+    margin-left:110px ;
+    width: 9px;
+    margin-top: 13px;
+  
+
+}
+
+
+
+.input-a input{
+   border-radius: 20px;
+   font-family: 'Roboto', sans-serif; 
+   padding: 12px 35px 12px 25px ;
+   color: #ffff;
+   background: #f8d92b;
+   border: none;
+   font-size: 16px;
+   position: absolute;
+   cursor: pointer;
+  
+}
+
+.input-a input:hover{
+   color: #ffff;
+   background-color: black;
+   transition: 0.5s;
+ 
+}
+/* ------------------------------------------------------------------------ */
+
+.about-us{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: #f8faf9;
+}
+
+
+
+.about-us-text div h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.about-us-text div p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+
+.photo-about{
+    margin-left: 100px;
+}
+/* ------------------------------------------------------------------------ */
+.want-help{
+   
+   display: flex;
+   align-items: center;  
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 100px;
+}
+
+.titel-help h6{
+  color: #f8d92b;
+  font-size: 20px;
+  margin-left: 80px;
+  margin-bottom: -20px;
+} 
+
+.titel-help h3{
+    font-size: 32px;
+}
+
+.ican-help{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.ican-help .ican-all{
+    margin-right: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ican-help .ican-photo{
+    background-color: #363636;
+    padding: 80px 50px;
+    border-radius: 80px;
+}
+
+.ican-help .ican-photo img{
+    width: 16vh;
+}
+
+.ican-help .text-ican h4{
+    color: #000205;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.ican-help .ican-all:hover{
+    margin-top: -250px;
+    transition: 0.5s;
+}
+.ican-help .ican-all:hover .ican-photo{
+    background-color: #f8d92b;
+    transition: 0.5s;
+}
+
+
+.want-help .text-help p{
+    
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #000205;
+    line-height: 25px;
+}
+
+.want-help .input-a{
+    margin-left: -110px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.WELCOME-TO-TRUST{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    background-color: #f8faf9;
+}
+
+.text-wel{
+    margin-left: 140px;
+}
+
+.text-wel h4{
+     font-size: 30px;
+}
+
+.text-wel .story-wel .titel {
+    font-size: 25px;
+} 
+
+.text-wel .story-wel .text{
+    line-height: 20px;
+}
+
+.text-wel .input-a{
+    margin-top: 50px;
+}
+
+.WELCOME-TO-TRUST .photo-wel img{
+    width: 75vh;
+    margin-left: 180px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+.input-test{
+     position: relative;
+}
+
+.input-test img{
+     position: absolute;
+     z-index: 10;
+     margin-left:110px ;
+     width: 9px;
+     margin-top: 13px;
+   
+
+}
+
+
+
+.input-test input{
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif; 
+    padding: 12px 35px 12px 25px ;
+    color: #ffff;
+    background: #f8d92b;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+   
+}
+
+ .input-test input:hover{
+    color: #ffff;
+    background-color: black;
+    transition: 0.5s;
+}
+/* ------------------------------------------------------------------------ */
+
+
+.contact-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.text-con{
+  margin-left: -600px;
+    
+} 
+
+.text-con h4{
+    font-size: 28px;
+}
+
+.text-con .three-input-con div input{
+    border: none;
+    border-bottom: 1px solid #252525;
+    font-size: 16px;
+    margin-bottom: 25px;
+    width: 450px;
+    color: #6a6565;
+    outline: none;
+}
+
+.text-con .massage-input div input{
+    border: none;
+    border-bottom: 1px solid #252525;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    width: 450px;
+    margin-bottom: 50px;
+    color: #6a6565;
+    outline: none;
+
+}
+
+.text-con .input-a button{
+    padding: 12px 40px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif; 
+    padding: 12px 40px  ;
+    color: #ffff;
+    background: #f8d92b;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.text-con .input-a button:hover{
+    color: #ffff;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.photo-con{
+    margin-right: -600px;
+}
+
+
+.photo-con img{
+    width: 70vh;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+/* ------------------------------------------------------------------------ */
+
+
+footer{
+    background-color: #2a2a2c;
+    margin-top: 100px;
+    margin-bottom: 40px
+}
+
+footer .texts{
+    padding: 80px 230px ;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.jd-footer h2{
+    color: #f8d92b;
+    font-size: 35px;
+}
+
+.jd-footer p{
+    color: #ffff;
+    line-height: 25px;
+    margin-top: -15px;
+}
+
+.ADDRESS-footer{
+    color: #ffff;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.ADDRESS-footer h5{
+    font-size: 20px;
+    font-weight: 500
+}
+
+.ADDRESS-footer p{
+    line-height: 25px;
+    margin-top: -5px;
+}
+
+.new-footer{
+margin-top: -70px;
+}
+
+.new-footer h5{
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.new-footer .enter input{
+    outline: none;
+    border-radius: 100px;
+    border: none;
+    padding: 7px 10px ;
+    width: 250px;
+    margin-bottom: 20px;
+    color: #6a6565;
+} 
+
+.new-footer .input-a input{
+    font-size: 13px;
+    padding: 10px 20px ;
+}
+
+.new-footer .input-a input:hover{
+    background-color: #f8d92b;
+}
+
+.icans-footer{
+    text-align: center;
+    
+}
+.icans-footer img{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
